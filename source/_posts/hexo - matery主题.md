@@ -1,5 +1,5 @@
 ---
-title:hexo - matery主题
+title: hexo - matery主题
 date: 2022-07-27 10:38:56
 tags: hexo
 ---
