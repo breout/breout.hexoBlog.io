@@ -16,7 +16,11 @@ tags:
 
 ### 1、添加相关Nuget包
 
-![EFCoreNuget](../../img/EFCoreNuget.png)
+![EFCoreNuget](EFCore学习/EFCoreNuget.png)
+
+
+
+
 
 ### 2、创建项目
 
@@ -24,7 +28,7 @@ tags:
 
 创建Demo.app控制台项目。Demo.Data和Demo.Domain的类库
 
-![EFCore目录](../../img/EFCore目录.png)
+![EFCore目录](EFCore学习/EFCore目录.png)
 
 ### 3、编写实体类
 
@@ -139,7 +143,7 @@ Add-Migration [名字]
 Update-Datebase
 ```
 
-![EFCore生成表](../../img/EFCore生成表.png)
+![EFCore生成表](EFCore学习/EFCore生成表.png)
 
 ## 二、具体操作
 
