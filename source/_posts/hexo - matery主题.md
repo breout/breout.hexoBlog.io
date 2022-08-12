@@ -609,15 +609,15 @@ tags:
 
 ## 效果截图
 
-![首页](http://static.blinkfox.com/matery-20181202-1.png)
+![matery-20181202-1](hexo - matery主题/matery-20181202-1.png)
 
-![首页推荐文章](http://static.blinkfox.com/matery-20181202-2.png)
+![matery-20181202-2](hexo - matery主题/matery-20181202-2.png)
 
-![首页文章列表](http://static.blinkfox.com/matery-20181202-3.png)
+![matery-20181202-3](hexo - matery主题/matery-20181202-3.png)
 
-![首页文章列表](http://static.blinkfox.com/matery-20181202-7.png)
+![matery-20181202-7](hexo - matery主题/matery-20181202-7.png)
 
-![首页文章列表](http://static.blinkfox.com/matery-20181202-8.png)
+![matery-20181202-8](hexo - matery主题/matery-20181202-8.png)
 
 ## 自定制修改
 
