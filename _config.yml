@@ -111,6 +111,5 @@ lazyload:
   
 deploy:
   type: git
-  repo: 
-    github: git@github.com:XiangShuchen/hexoBlog.io.git
+  repo: git@github.com:XiangShuchen/hexoBlog.io.git
   branch: master
