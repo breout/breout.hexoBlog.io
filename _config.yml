@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://breout.github.io/breout.hexoBlog.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,14 +103,11 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-  
+  type: git
+  repo: git@github.com:breout/breout.hexoBlog.io.git
+  branch: main
+
 ##图片懒加载
 lazyload:
   enable: true
   loadingImg: /img/loading.gif
-  
-deploy:
-  type: git
-  repo: git@github.com:XiangShuchen/hexoBlog.io.git
-  branch: master
