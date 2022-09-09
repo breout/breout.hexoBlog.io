@@ -108,3 +108,9 @@ deploy:
 lazyload:
   enable: true
   loadingImg: /img/loading.gif
+  
+deploy:
+  type: git
+  repo: 
+    github: git@github.com:XiangShuchen/hexoBlog.io.git
+  branch: master
