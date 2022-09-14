@@ -16,11 +16,7 @@ tags:
 
 ### 1、添加相关Nuget包
 
-![EFCoreNuget](EFCore学习/EFCoreNuget.png)
-
-
-
-
+{% https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165419.png  [Nuget包] %}
 
 ### 2、创建项目
 
@@ -28,7 +24,7 @@ tags:
 
 创建Demo.app控制台项目。Demo.Data和Demo.Domain的类库
 
-![EFCore目录](EFCore学习/EFCore目录.png)
+https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165347.png
 
 ### 3、编写实体类
 
@@ -143,7 +139,7 @@ Add-Migration [名字]
 Update-Datebase
 ```
 
-![EFCore生成表](EFCore学习/EFCore生成表.png)
+![](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165504.png)
 
 ## 二、具体操作
 
