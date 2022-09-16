@@ -55,7 +55,7 @@ tags:
 
 如下图所示：
 
-![img](java23种设计模式/4a1352e959b8721de2d57410b6405998.png)
+![设计模式](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_172036.png)
 
 
 

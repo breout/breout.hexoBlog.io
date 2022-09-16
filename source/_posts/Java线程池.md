@@ -18,7 +18,7 @@ tags:
 
 ## 2. JUC线程池[架构](https://so.csdn.net/so/search?q=架构&spm=1001.2101.3001.7020)
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16.png)
+![1](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173146.png)
 
 **1. Executor**
 Executor提供了execute()接口来执行已提交的Runnable执行目标实例,它只有1个方法：
@@ -106,7 +106,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_17,color_FFFFFF,t_70,g_se,x_16.png)
+![2](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173117.png)
 
 特点：
 
@@ -158,7 +158,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_19,color_FFFFFF,t_70,g_se,x_16.png)
+![3](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173221.png)
 
 特点：
 
@@ -217,7 +217,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_18,color_FFFFFF,t_70,g_se,x_16.png)
+![4](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173306.png)
 
 特点：
 
@@ -286,7 +286,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_17,color_FFFFFF,t_70,g_se,x_16-16612221312071.png)
+![5](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173348.png)
 
 总结：Executors创建线程池的4种方法十分方便，但是构造器创建普通线程池、可调度线程池比较复杂，这些构造器会涉及大量的复杂参数，已经较少使用。
 
@@ -536,7 +536,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312072.png)
+![6](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173403.png)
 
 > execute()方法在启动任务执行后，任务执行过程中可能发生的异常调用者并不关心。而通过submit()方法返回的Future对象（异步执行实例），可以进行异步执行过程中的异常捕获
 
@@ -544,7 +544,7 @@ public class CreateThreadPollDemo {
 
 ## 6. 线程池的任务调度流程
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312073.png)
+![img](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173420.png)
 
 1. 如果**当前工作线程数量小于核心线程数量**，执行器总是优先创建一个任务线程，而不是从线程队列中获取一个空闲线程
 2. 如果**线程池中总的任务数量大于核心线程池数量**，新接收的任务将被加入**阻塞队列**中，一直到阻塞队列已满。
@@ -644,7 +644,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_18,color_FFFFFF,t_70,g_se,x_16-16612221312074.png)
+![8](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173529.png)
 使用默认线程工厂的情况如下：
 
 ```java
@@ -766,7 +766,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_13,color_FFFFFF,t_70,g_se,x_16.png)
+![9](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173541.png)
 
 ------
 
@@ -778,7 +778,7 @@ public class CreateThreadPollDemo {
 2. 工作队列已满且maximumPoolSize已满
 
 几种常见的拒绝策略：
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312085.png)
+![10](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173547.png)
 
 1. AbortPolicy：拒绝策略
 
@@ -879,7 +879,7 @@ public class CreateThreadPollDemo {
 }
 ```
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312086.png)
+![11](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173556.png)
 
 ------
 
@@ -904,7 +904,7 @@ public class CreateThreadPollDemo {
 5. TERMINATED：执行完terminated()钩子方法之后的状态
 
 **几种状态的转换：**
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312087.png)
+![12](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173607.png)
 
 **几种关闭线程池的方法：**
 
@@ -976,4 +976,4 @@ public boolean awaitTermination(long timeout, TimeUnit unit)
 
 在设置的时间timeout内如果线程池完成关闭，返回true, 否则返回false
 
-![在这里插入图片描述](Java线程池/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQ29kZVBhbmRhQEdQRg==,size_20,color_FFFFFF,t_70,g_se,x_16-16612221312088.png)
+![13](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_173625.png)

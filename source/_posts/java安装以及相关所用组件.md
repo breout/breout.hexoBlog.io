@@ -23,11 +23,13 @@ tags:
 
 ### idea设置中文
 
-![image2022-8-22_13-30-34](java安装以及相关所用组件/image2022-8-22_13-30-34.png)
+![image2022-8-22_13-30-34](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_172749.png)
 
-![image](java安装以及相关所用组件/image2022-8-22_13-32-3.png)
+![image2022-8-22_13-32-3](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_172800.png)
 
-![image2022-8-22_13-31-9](java安装以及相关所用组件/image2022-8-22_13-31-9.png)
+![image2022-8-22_13-31-9](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/16_172813.png)
+
+
 
 破解文档： https://mp.weixin.qq.com/s/r3RjnzPwjEHmWqdXtMkAWw
 

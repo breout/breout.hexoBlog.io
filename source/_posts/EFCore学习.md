@@ -16,7 +16,7 @@ tags:
 
 ### 1、添加相关Nuget包
 
-{% https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165419.png  [Nuget包] %}
+![](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165419.png)
 
 ### 2、创建项目
 
@@ -24,7 +24,7 @@ tags:
 
 创建Demo.app控制台项目。Demo.Data和Demo.Domain的类库
 
-https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165347.png
+![](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/09_165347.png)
 
 ### 3、编写实体类
 
