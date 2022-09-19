@@ -10,7 +10,7 @@ tags:
 
 Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。Spring并没有重复制造轮子，它只是将目前各家公司开发的比较成熟、经得起实际考验的服务框架组合起来，通过Spring Boot风格进行再封装屏蔽掉了复杂的配置和实现原理，最终给开发者留出了一套简单易懂、易部署和易维护的分布式系统开发工具包。
 
-![img](springCloud简介/805b11709a18a023404631d8e80d9aaeab9eb3f6.jpg)
+![img](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_105156.jpg)
 
 
 
@@ -65,7 +65,7 @@ Spring Cloud共集成了19个子项目，里面都包含一个或者多个第三
 Eureka是Netflix开源的一款提供服务注册和发现的产品，它提供了完整的Service Registry和Service Discovery实现。也是Spring Cloud体系中最重要最核心的组件之一。
 Eureka是Spring Cloud体系的服务中心，将所有的可以提供的服务都注册到它这里来管理，其它各调用者需要的时候去注册中心获取，然后再进行调用，避免了服务之间的直接调用，方便后续的水平扩展、故障转移等。如下图：
 
-![img](springCloud简介/c3fe1cd64976be3c49dc279d05d9f9e74612f0c8.jpg)
+![ig](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_110130.jpg)
 
 
 
@@ -81,7 +81,7 @@ Eureka是Spring Cloud体系的服务中心，将所有的可以提供的服务�
 在微服务架构中通常会有多个服务层调用，基础服务的故障可能会导致级联故障，进而造成整个系统不可用的情况，这种现象被称为服务雪崩效应。服务雪崩效应是一种因“服务提供者”的不可用导致“服务消费者”的不可用,并将不可用逐渐放大的过程。
 如下图所示：A作为服务提供者，B为A的服务消费者，C和D是B的服务消费者。A不可用引起了B的不可用，并将不可用像滚雪球一样放大到C和D时，雪崩效应就形成了。
 
-![img](springCloud简介/8d2a1d9462e66464d5512cb3f2de9f0c48862a53.jpg)
+![img](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_112555.jpg)
 
 
 
@@ -92,7 +92,7 @@ Eureka是Spring Cloud体系的服务中心，将所有的可以提供的服务�
 
 Hystrix是Spring Cloud体系中的一个分布式系统限流、降级、熔断框架，Hystrix会在某个服务连续调用N次不响应的情况下，立即通知调用端调用失败，避免调用端持续等待而影响了整体服务。Hystrix间隔时间会再次检查此服务，如果服务恢复将继续提供服务。
 
-![img](springCloud简介/3b799459ebb1c37c78e362b7c1b76d4ce9a3f6b5.jpg)
+![im](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_112604.jpg)
 
 
 
@@ -106,7 +106,7 @@ Spring Cloud Config是一个解决分布式系统的配置管理方案。它包�
 
 
 
-![8d2a1d9462e66464d5512cb3f2de9f0c48862a53](springCloud简介/8d2a1d9462e66464d5512cb3f2de9f0c48862a53.jpg)
+![8d2a1d9463](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_112611.jpg)
 
 
 
@@ -126,7 +126,7 @@ Spring Cloud Zuul是Netflix开源的微服务网关，他可以和Eureka,Ribbon,
 - 静态响应处理：边缘位置进行响应，避免转发到内部集群
 - 多区域弹性：跨域AWS Region进行请求路由，旨在实现ELB(ElasticLoad Balancing)使用多样化
 
-![img](springCloud简介/26f8b1ad7128896e35e88859c60a92dad03c52f2.jpg)
+![ig](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_112616.jpg)
 
 
 
@@ -134,7 +134,7 @@ Spring Cloud Zuul是Netflix开源的微服务网关，他可以和Eureka,Ribbon,
 
 Spring Cloud Ribbon组件主要用于提供客户侧的软件负载均衡算法。
 
-![img](springCloud简介/47bb0723f1cca5a649ab4fa956d479fa56092d0b.jpg)
+![im](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_112625.jpg)
 
 
 

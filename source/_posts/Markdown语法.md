@@ -24,7 +24,7 @@ date: 2022-09-02 14:18:00
 ```
 我们常常需要用到标题，在markdown中标题使用#号表示，一个#代表1级标题，一共有6个级别，他们的大小依次变小
 
-![屏幕快照](Markdown语法/屏幕快照081107.png)
+![屏幕照](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104752.png)
 
 # 段落
 
@@ -34,7 +34,7 @@ date: 2022-09-02 14:18:00
 
 在Typora里面只需要回车换行
 
-![image](Markdown语法/屏幕快照082047.png)
+![imae](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104807.png)
 
 # 字体
 
@@ -73,7 +73,7 @@ ___粗斜体文本___
 _ _ _
 ```
 
-![image](Markdown语法/屏幕快照083914.png)
+![imae](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104826.png)
 
 # 删除线
 
@@ -176,7 +176,7 @@ $(document).ready(function () {
 ```
 ````
 
-![image](Markdown语法/屏幕快照094143.png)
+![imae](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104838.png)
 
 # 链接
 
@@ -273,11 +273,11 @@ _   下划线
 ```
 - 不使用转义字符：
 
-![image](Markdown语法/屏幕快照105119.png)
+![](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104845.png)
 
 - 使用了转义字符
 
-![image](Markdown语法/屏幕快照105159.png)
+![imae](https://gitee.com/jason-xiang/blog-img/raw/master/pic/2022/09/19_104850.png)
 
 # 其他高级语法
 
